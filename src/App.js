@@ -12,7 +12,7 @@ const App = () => {
     <div className="app">
       <Router>
         <Routes>
-          <Route path="/" element={<Navbar />} />
+          <Route path="/React-small-projects" element={<Navbar />} />
           <Route path="/advisor" element={<Advisor />} />
           <Route path="/bmi" element={<BmiCalculator />} />
           <Route path="/qrgen" element={<QrGenerator />} />
