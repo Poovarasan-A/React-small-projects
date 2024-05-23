@@ -1,0 +1,92 @@
+.qrgen nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f57d1f;
+  height: 50px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: inter;
+  overflow: hidden;
+}
+.qrgen nav h1 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+}
+.qrcontainer {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.qrcontainer h1 {
+  margin: 20px 0px;
+}
+.qr {
+  width: 500px;
+  display: grid;
+  place-items: center;
+}
+.qr img {
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+}
+.details {
+  width: 500px;
+  padding: 20px;
+}
+.details label {
+  display: block;
+  margin: 10px 0px;
+}
+.qrgen input[type="text"] {
+  width: 95%;
+  padding: 10px 10px;
+  outline: none;
+  border: 2px solid #f57d1f;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  background: none;
+}
+.btns {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0px;
+  padding-bottom: 10px;
+}
+.qrgen button {
+  padding: 15px 20px;
+  background: none;
+  border: none;
+  border-radius: 25px;
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}
+.btns .generateBtn {
+  background-color: #f57d1f;
+}
+.btns .generateBtn:hover {
+  background-color: #df711d;
+}
+.btns .generateBtn:disabled {
+  background-color: #999;
+  color: #dadada;
+  cursor: not-allowed;
+}
+.btns .downldBtn {
+  background-color: #1fb867;
+  margin-left: 20px;
+}
+.btns .downldBtn:hover {
+  background-color: #1a9c57;
+}

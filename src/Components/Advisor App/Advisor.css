@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Brygada+1918:ital,wght@0,400..700;1,400..700&display=swap");
+
+.advisor {
+  width: 100vw;
+  height: 100vh;
+  background-color: #cad3c8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  text-align: center;
+}
+
+.advisor h2 {
+  max-width: 700px;
+  font-style: italic;
+  font-weight: 600;
+  font-family: "Brygada 1918", serif;
+  word-spacing: 1px;
+  margin: 10px;
+}
+
+.advisor button {
+  color: white;
+  background-color: teal;
+  padding: 10px 25px;
+  border-radius: 20px;
+  border: none;
+  font-weight: 600;
+  font-size: 16px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  margin-top: 40px;
+  cursor: pointer;
+}
+.advisor button:hover {
+  background-color: rgb(2, 105, 105);
+}
+.advisor h3 {
+  font-family: afacad;
+  margin-top: 30px;
+}

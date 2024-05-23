@@ -1,0 +1,101 @@
+.weather {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./images/Snowy.jpg);
+  background-size: cover;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: inter;
+  overflow: hidden;
+}
+.weather .container {
+  width: 800px;
+  height: 500px;
+  background-color: rgba(14, 13, 13, 0.8);
+  border-radius: 50px;
+  padding: 30px;
+}
+.weather .input-container {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  margin-top: 10px;
+}
+.weather .input-container .searchInput {
+  width: 100%;
+  height: 100%;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  background: none;
+  outline: none;
+}
+.weather .input-container img {
+  margin-right: -5px;
+}
+.weather .container img {
+  width: 50px;
+  filter: invert(100%);
+  cursor: pointer;
+}
+.weather-container {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  align-items: center;
+}
+.weatherContent {
+  width: 50%;
+}
+.temp-date {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.city {
+  margin: 20px 0px 0px 20px;
+  font-size: 20px;
+}
+.country {
+  margin: 0px 25px;
+  font-size: 20px;
+  color: #ccc;
+}
+.temp {
+  text-align: center;
+  font-size: 50px;
+  margin: 20px 0px 0px 20px;
+}
+.temp p {
+  font-size: 20px;
+  margin-top: 15px;
+}
+.ambience {
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  margin: 10px 0px 0px 20px;
+}
+.ambience img {
+  width: 60px;
+}
+.ambience strong {
+  margin-left: 10px;
+}
+.humidity,
+.wind,
+.direction {
+  font-size: 18px;
+  margin: 20px 0px 0px 20px;
+  font-weight: 300;
+}
